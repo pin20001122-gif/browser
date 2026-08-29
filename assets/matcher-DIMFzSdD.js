@@ -1,0 +1,1 @@
+function e({connected:c,browserId:t,localBrowserIds:n}){return t?!c||!n?"disconnected":n.has(t)?"matched":"local_missing":"unbound"}const o={matched:"🟢",local_missing:"🔴",disconnected:"⚪",unbound:"🟡"};function i({connected:c,browserId:t,localBrowserIds:n}){return!c||!n?"unknown":n.has(t)?"connected":"not_matched"}export{o as C,e as a,i as m};
