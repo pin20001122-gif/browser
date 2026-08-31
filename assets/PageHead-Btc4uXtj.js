@@ -1,1 +1,0 @@
-import{n,b as r,e,t as l,az as i}from"./index-gOa0UKcZ.js";const o={class:"page-head"},d={__name:"PageHead",props:{title:String,subtitle:String},setup(t){return(a,s)=>(n(),r("div",o,[e("div",null,[s[0]||(s[0]=e("span",{class:"eyebrow"},"MANAGEMENT",-1)),e("h1",null,l(t.title),1),e("p",null,l(t.subtitle),1)]),e("div",null,[i(a.$slots,"default")])]))}};export{d as _};
