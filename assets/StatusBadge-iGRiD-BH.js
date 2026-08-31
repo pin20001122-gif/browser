@@ -1,1 +1,0 @@
-import{n as l,b as r,t as c,F as u,N as a,m as p}from"./index-afkSyQkX.js";import{s as m,b as i,n as _}from"./constants-BepbjKIf.js";const g={__name:"StatusBadge",props:{value:String},setup(t){const s=t,{t:e}=p(),n=a(()=>e(m(s.value))),o=a(()=>i[_(s.value)]||"");return(S,v)=>(l(),r("span",{class:u(`status ${o.value}`)},c(n.value),3))}};export{g as _};
