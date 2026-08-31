@@ -1,0 +1,1 @@
+import{b9 as c,r as a,y as n}from"./index-DByRQRJK.js";const p=c("workspace",()=>{const s=a([]),e=a(!0),r=a("");async function t(){e.value=!0,r.value="";const{data:u,error:o}=await n.rpc("get_workspace_stores");o&&(r.value=o.message),s.value=u||[],e.value=!1}return{stores:s,loading:e,error:r,load:t}});export{p as u};
