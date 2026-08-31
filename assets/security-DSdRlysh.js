@@ -1,1 +1,0 @@
-import{y as r}from"./index-B2LKGiQa.js";async function e({limit:n=200,channel:o=null,outcome:u=null}={}){return r.rpc("get_auth_audit_log",{p_limit:Number(n),p_channel:o||null,p_outcome:u||null})}async function l(){return r.rpc("get_browser_login_locks")}async function s(n){return r.rpc("unlock_browser_login",{p_browser_id:String(n||"")})}export{l as a,e as g,s as u};

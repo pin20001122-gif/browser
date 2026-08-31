@@ -1,0 +1,1 @@
+import{n as a,b as l,aA as c,O as t,N as n}from"./index-afkSyQkX.js";const u={__name:"Badge",props:{color:String},setup(e){const o=e,r=n(()=>o.color?{background:`${o.color}18`,color:o.color,borderColor:`${o.color}55`}:void 0);return(s,p)=>(a(),l("span",{class:"badge",style:t(r.value)},[c(s.$slots,"default")],4))}};export{u as _};
